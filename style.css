@@ -2,19 +2,32 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: blue;
+    background-color: #1F2937;
     min-height: 50px;
-    padding: 15px;
-
+    padding-left: 40px;
+    padding-right: 40px ;
+    padding-top: 15px;
 }
+
+.header-logo {
+    color: white;
+}
+.header-links {
+    color: white;
+    display: flex;
+    gap:12px
+}
+
 .modal-1 {
-    background-color: red;
+    background-color: #1F2937;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .m1container {
-    background-color: darkgray;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -41,11 +54,11 @@ button {
 }
 
 .m1img {
-    background-color: darkgray;
     display: flex;
     width: 50%;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .modal-2 {
@@ -77,6 +90,11 @@ button {
     border: 5px solid blue;
 }
 
+img {
+    height: 150px;
+    width: 150px;
+}
+
 .m2ctext {
     display: flex;
     align-items: center;
@@ -87,21 +105,57 @@ button {
 }
 
 .modal-3 {
-    background-color: green;
-    height: 50px;
-    width: 50px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.quote-desc {
+    max-width: 500px;
+}
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    min-width: 500px;
+    font-weight: bold;
+    padding-right: 40px;
 }
 .modal-4 {
-    background-color: black;
-    height: 50px;
-    width: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 12px;
+
 }
+
+.m4-title {
+    color: white;
+    font-weight: bold;
+}
+
+.m4-desc {
+    color: white;
+    font-size: 12px;
+}
+
 .footer {
     background-color: coral;
-    height: 50px;
-    width: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #1F2937;
+    color: white;
+
+
 }
 body {
     display: flex;
     flex-direction: column;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
